@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <title>blog | Mobile_dataset</title>
+</head>
+<body>
+  <nav id="main-nav">
+    <div class="container">
+      
+      
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="article">
+    <div class="container">
+      <div class="articles-container">
+        <article class="card">
+          <img src="img/articles/Mobile blog" width="250" height="450" alt="">
+          <h1 class="l-heading">Mobile_dataset Summary blog</h1>
+          <div class="meta">
+            <small>
+              <i class="fas fa-user"></i> Written By Ajith
+            </small>
+            <div class="category category-ent">Mobile_dataset</div>
+          </div>
+          <p>Dataset Overview:
+
+            The dataset contains various attributes such as brand, product name, pricing details, discount, ratings, reviews, and specifications.
+            The first two rows of the dataset give a glimpse of the data, which includes products from brands like Apple and OnePlus.</p>
+          <p>Statistical Summary:
+
+            The .describe() method provides a statistical summary of numeric columns:</p>
+           <h5>Actual price: Ranges from ₹1,199 to ₹177,999.</h5> 
+           <h5>price: Ranges from ₹809 to ₹176,999.</h5> 
+            <h5>Ranges from 3.4 to 5.0.</h5> 
+            <h5>Display Size (inch): Ranges from 0.66 to 7.82 inches.</h5> 
+          <p>Missing Values Analysis:
+            The percentage of missing data in each column was calculated:
+            Camera has about 7.7% missing data.
+            Columns like "Actual price" and "Discount price" have minor missing values (around 2.4% and 0.4%, respectively).</p>  
+          <p>Data Types:
+            The data types of the columns were identified:
+            Most columns are of type object (string), while numeric columns like "Actual price," "Discount price," "Stars," and "Display Size (inch)" are of type float64.</p>
+          <p>Value Counts:
+            The Product Name column has the most frequent product being "OPPO K12x 5G with 45W SUPERVOOC Charger In-The-Box (Breeze Blue, 256 GB)" (31 entries).
+            The Brand column shows "realme" as the most frequent brand (124 entries).</p>  
+        <P>Total Sum of Actual Price:
+          The sum of the Actual price across all products is ₹24,831,685.</P>
+        <p>Visualizations:
+          Discount Histogram: A histogram showing the distribution of discounts across the dataset.
+          Stars vs. Discount Scatterplot: A scatter plot showing the relationship between ratings (stars) and discount, colored by brand.
+          Pairplot: A pairplot of the dataset, which allows for quick visual inspection of relationships between variables.
+          Box Plot of Discount: A box plot to visualize the distribution of discounts.
+          Distribution Plot for Stars and Discount: Shows the distribution of ratings and discounts (Note: distplot is deprecated; displot or histplot should be used instead).
+          Regression Plot: A regression plot showing the relationship between Actual price and Discount price.</p>
+        <p>Summary:
+          This analysis covers basic data exploration, missing value analysis, and a variety of visualizations that provide insights into the dataset. It highlights the distribution of key metrics like discounts and ratings and examines relationships between variables such as actual price and discount price.</p> 
+        
+        </article>
+
+        
+
+        <aside class="card bg-secondary">
+          <h2>My work</h2>
+          <p>Thank for visit</p>
+          <a href="https://github.com/Ajith-analytics/Mobiles_dataset/blob/main/Mobiles%20dataset.ipynb" class="btn btn-dark btn-block"> To see</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- Footer -->
+  
+
+</body>
+</html>
